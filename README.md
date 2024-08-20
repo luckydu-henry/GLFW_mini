@@ -1,3 +1,9 @@
+# FORK DESCRIPTION
+I was making a game project with GLFW and C++, I found its timer features and OpenGL context features seems useless (caues' I'm using std::chrono and Vulkan) to me.
+So I removed these two parts and all examples and tests inside this project, including CMake files to make it more easy to embbed into my game project.
+
+It works fine on win32 until now.
+---
 # GLFW
 
 [![Build status](https://github.com/glfw/glfw/actions/workflows/build.yml/badge.svg)](https://github.com/glfw/glfw/actions)
